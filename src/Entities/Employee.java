@@ -85,8 +85,8 @@ public class Employee {
     }
 
     @Override
-    public String toString(){
-        return System.out.print("Name :\n"+this.name+"Last Name :\n"+this.lastName+" Id :\n"+this.id+"Department\n"+this.department+"Rank\n"+this.rank+);
-    }
+        public String toString(){
+            return ("Name :\n"+this.name+"Last Name :\n"+this.lastName+" Id :\n"+this.id+"Department\n"+this.department+"Rank\n"+this.rank);
+        }
 
 }
